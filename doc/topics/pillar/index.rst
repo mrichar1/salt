@@ -341,7 +341,8 @@ key under which to nest the results of the included pillar:
           key: users
 
 With this form, the included file (users.sls) will be nested within the 'users'
-key of the compiled pillar. Additionally, the 'sudo' value will be available
+key of the compiled pillar. The key can also represent a nested value 
+using a ":" delimiter. Additionally, the 'sudo' value will be available
 as a template variable to users.sls.
 
 .. _pillar-in-memory:
